@@ -1,0 +1,15 @@
+# Site settings
+title: Andras Balla
+email: ab223sq@student.lnu.se
+description: > # this means to ignore newlines until "baseurl:"
+  Welcone to my awesome website! Here you will find the ramblings of a swedish programming student going through the paces to become a programmer.
+  In the about section you will find information About me and on the main page you can see blog posts about my intrests: programming, gaming, hiking
+  and much much more!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: spiks2006
+github_username:  AndrasBalla
+paginate: 3
+
+# Build settings
+markdown: kramdown

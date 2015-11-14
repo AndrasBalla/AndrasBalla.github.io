@@ -1,0 +1,10 @@
+/* Team */
+Your title: Andras Balla.
+Twitter: spiks2006.
+Location: Halmstad, Sweden.
+
+/* Site */
+Last updated: 2015/11/13
+Standards: HTML5, CSS3.
+Components: Ruby, Jekyll
+Software: Vagrant, Webstorm.
