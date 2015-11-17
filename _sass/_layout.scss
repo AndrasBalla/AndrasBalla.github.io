@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: $green-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -19,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
     }
 }
 
@@ -93,8 +94,11 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
+    background-color: $grey-color;
+    color: $green-color;
     padding: $spacing-unit 0;
 }
+.text {color: $green-color;}
 
 .footer-heading {
     font-size: 18px;
@@ -105,6 +109,22 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    color: $green-color;
+}
+
+.contact-list a,
+.social-media-list a{
+    color: $green-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($green-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
 }
 
 .footer-col-wrapper {
@@ -163,6 +183,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+}
+
+.home,
+.post {
+    background-color: $grey-color-light;;
 }
 
 .page-heading {
