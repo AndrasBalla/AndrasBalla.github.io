@@ -181,13 +181,14 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+/*.page-content {
+    padding: 0 50px 0 50px;
+}*/
 
 .home,
 .post {
-    background-color: $grey-color-light;;
+    background-color: $background-color;
+    padding: 0 50px 10px 50px;
 }
 
 .page-heading {
